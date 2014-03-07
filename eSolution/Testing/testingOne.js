@@ -1,0 +1,1 @@
+﻿var theNewEnt = new ds.Company();theNewEnt.Name = 'Hej och Ha' + theNewEnt.ID;try {    theNewEnt.save();}catch (e) {    "error " + e;}
